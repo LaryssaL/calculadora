@@ -1,16 +1,24 @@
 #Complete as funcoes a seguir
 
 def soma(a, b):
-	#Insira o codigo aqui
+	x = a + b
+    	print( "A soma dos parâmetros é: ", x)
 
 def subtrai(a, b):
-	#Insira o codigo aqui
+	x = a - b
+    	print( "A subtração dos parâmetros é: ", x)
 
+	
 def multiplica(a, b):
-	#Insira o codigo aqui
+	x = a * b
+    	print( "A multiplicação dos parâmetros é: ", x)
 
 def divide(a, b):
-	#Insira o codigo aqui
+if (b != 0):
+	x = a / b
+    	print( "A divisão dos parâmetros é: ", x)
+else:
+	print("Digite outro número para b diferente de 0. Obrigada")
 
 
 #Programa principal
